@@ -12,11 +12,11 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: "Restaurant Page",
             filename: "index.html",
+            title: 'Carousel',
             template: "./src/index.html",
             inject: "head",
-            scriptLoading: "defer"
+            scriptLoading: "defer",
         }),
     ],
     module: {
